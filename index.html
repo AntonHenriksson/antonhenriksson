@@ -49,6 +49,26 @@
             margin-bottom: 20px;
         }
 
+        .project {
+            border-top: 1px dashed rgba(211, 211, 211, 0.4);
+            padding-top: 18px;
+            margin-top: 18px;
+        }
+
+        .project h2 {
+            font-size: 1.05rem;
+            margin: 0 0 8px;
+            letter-spacing: 1px;
+            color: #fff;
+            text-shadow: 0 0 6px rgba(255, 255, 255, 0.35);
+        }
+
+        .project-desc {
+            line-height: 1.6;
+            margin: 0 0 14px;
+            font-size: 0.95rem;
+        }
+
         a {
             color: lightgrey;
             text-decoration: none;
@@ -69,13 +89,33 @@
         <h1>Anton Henriksson</h1>
         <div class="tech-stack">[Tech Stack: Java | Spring | Quarkus | Docker | React | JS]</div>
         <p class="description">
-            ventilationisyd.se is a custom solution for a small business looking to integrate their Outlook workflow
-            into a simple, accessible booking website for clients.
+            Recent projects.
         </p>
-        <p>
-            <a href="http://www.ventilationisyd.se" target="_blank" rel="noopener noreferrer">>
-                www.ventilationisyd.se</a>
-        </p>
+
+        <div class="project">
+            <h2>Blekinge Gäddfestival 2026</h2>
+            <p class="project-desc">
+                A quick overhaul to present this year's competition. Mieådalens Sportfiskeklubb asked for a
+                quick presentation website rather than a complicated one — so I rebuilt it as a lightweight
+                static site with the rules, registration and fredningsområden front and center.
+            </p>
+            <p>
+                <a href="https://blekingegaddfestival.se" target="_blank" rel="noopener noreferrer">>>
+                    www.blekingegaddfestival.se</a>
+            </p>
+        </div>
+
+        <div class="project">
+            <h2>Ventilation i Syd</h2>
+            <p class="project-desc">
+                ventilationisyd.se is a custom solution for a small business looking to integrate their Outlook
+                workflow into a simple, accessible booking website for clients.
+            </p>
+            <p>
+                <a href="http://www.ventilationisyd.se" target="_blank" rel="noopener noreferrer">>>
+                    www.ventilationisyd.se</a>
+            </p>
+        </div>
     </div>
 </body>
 
